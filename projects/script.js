@@ -105,8 +105,7 @@ getProjects().then(data => {
 })
 // fetch projects end
 
-// Start of Tawk.to Live Chat
-
+// Start of Tawk.to Live Cha??wertyuioplkjhgfc
 
 // // disable developer mode
 document.onkeydown = function (e) {
