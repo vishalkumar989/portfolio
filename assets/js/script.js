@@ -39,9 +39,9 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+        emailjs.init("u7mM1eqBlh1GiCD3G");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+        emailjs.sendForm('service_t697m8o', 'template_8c3imsa', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
@@ -172,7 +172,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 // pre loader end
 
 // disable developer mode
-// document.onkeydown = function (e) {
+document.onkeydown = function (e) {
 //     if (e.keyCode == 123) {
 //         return false;
 //     }
@@ -188,7 +188,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 //     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
 //         return false;
 //     }
-// }
+}
 
 
 

@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 
 // disable developer mode
-// document.onkeydown = function(e) {
+document.onkeydown = function(e) {
 //   if(e.keyCode == 123) {
 //      return false;
 //   }
@@ -23,4 +23,4 @@ $(document).ready(function(){
 //   if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
 //      return false;
 //   }
-// }
+ }
